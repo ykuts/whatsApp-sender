@@ -102,8 +102,9 @@ app.post('/send', upload.single('file'), (req, res) => {
 app.use(express.static('public'));
 
 // Запуск сервера
-const port = process.env.PORT || 3000;
 client.initialize();
+
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
     console.log(`Server started on http://localhost:${port}`);
