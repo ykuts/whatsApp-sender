@@ -59,36 +59,35 @@ const upload = multer({ dest: 'uploads/' });
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Эндпоинт для отправки сообщений с возможностью прикрепления файла
-app.post('/send', upload.single('file'), (req, res) => {
-    const { message } = req.body;
-    const clients = JSON.parse(req.body.clients);
-    const file = req.file;
-
-    clients.forEach(phone => {
+// Функция для отправки сообщений с задержкой
+const sendMessagesWithDelay = async (clients, message, file) => {
+    const delay = 2000; // Задержка в миллисекундах (2 секунды)
+    
+    for (const phone of clients) {
         const formattedNumber = `${phone}@c.us`;  // Форматируем номер для WhatsApp
+        
+        try {
+            if (file) {
+                // Читаем файл и создаем объект MessageMedia вручную
+                const mediaPath = path.join(__dirname, file.path);
+                const fileData = fs.readFileSync(mediaPath);
+                const base64Data = fileData.toString('base64');
+                const mimeType = file.mimetype;  // Получаем MIME-тип
+                const filename = file.originalname;  // Имя файла
 
-        if (file) {
-            // Читаем файл и создаем объект MessageMedia вручную
-            const mediaPath = path.join(__dirname, file.path);
-            const fileData = fs.readFileSync(mediaPath);
-            const base64Data = fileData.toString('base64');
-            const mimeType = file.mimetype;  // Получаем MIME-тип
-            const filename = file.originalname;  // Имя файла
+                const media = new MessageMedia(mimeType, base64Data, filename);  // Создаем объект MessageMedia
 
-            const media = new MessageMedia(mimeType, base64Data, filename);  // Создаем объект MessageMedia
-
-            client.sendMessage(formattedNumber, media, { caption: message })  // Отправляем медиа с текстом
-                .then(response => console.log(`Message with media sent to ${phone}: ${response}`))
-                .catch(err => console.error(`Failed to send message with media to ${phone}: ${err}`));
-        } else {
-            client.sendMessage(formattedNumber, message)  // Если нет файла, отправляем только текст
-                .then(response => console.log(`Message sent to ${phone}: ${response}`))
-                .catch(err => console.error(`Failed to send message to ${phone}: ${err}`));
+                await client.sendMessage(formattedNumber, media, { caption: message });  // Отправляем медиа с текстом
+            } else {
+                await client.sendMessage(formattedNumber, message);  // Если нет файла, отправляем только текст
+            }
+            console.log(`Message sent to ${phone}`);
+        } catch (err) {
+            console.error(`Failed to send message to ${phone}: ${err}`);
         }
-    });
-
-    res.json({ status: 'ok' });
+        
+        await new Promise(resolve => setTimeout(resolve, delay)); // Задержка
+    }
 
     // Удаляем загруженный файл после отправки
     if (file) {
@@ -96,6 +95,17 @@ app.post('/send', upload.single('file'), (req, res) => {
             if (err) console.error('Failed to delete file:', err);
         });
     }
+};
+
+// Эндпоинт для отправки сообщений с возможностью прикрепления файла
+app.post('/send', upload.single('file'), async (req, res) => {
+    const { message } = req.body;
+    const clients = JSON.parse(req.body.clients);
+    const file = req.file;
+
+    await sendMessagesWithDelay(clients, message, file);
+
+    res.json({ status: 'ok' });
 });
 
 // Статический хостинг HTML страницы
