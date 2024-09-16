@@ -8,7 +8,11 @@ const app = express();
 const path = require('path');
 
 // Инициализация WhatsApp клиента
-const client = new Client();
+const client = new Client({
+    puppeteer: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    }
+});
 let qrCodeData = null;
 let clientReady = false;
 
