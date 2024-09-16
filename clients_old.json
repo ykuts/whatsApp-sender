@@ -1,0 +1,713 @@
+[
+    {"name": "Iryna", "phone": "41797158774", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Yuliia", "phone": "41794893260", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Iryna2", "phone": "41797158774", "messenger": "WhatsApp", "gare": "Вевей"},
+    {"name": "Yuliia2", "phone": "41794893260", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Iryna3", "phone": "41797158774", "messenger": "Telegram", "gare": "Ніон"},
+    {"name": "Yuliia3", "phone": "41794893260", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Вікторія", "phone": "33618200977", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Наталия", "phone": "33666014981", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Lana Світлана", "phone": "38050589600", "messenger": "Telegram", "gare": "Лозанна"},
+    {"name": "Маргарита", "phone": "41754201544", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Olena Prydous", "phone": "41762300651", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Liliia Lysyuk-Norkina", "phone": "41762726137", "messenger": "WhatsApp", "gare": "Егль"},
+    {"name": "Ольга", "phone": "41763104736", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Marta", "phone": "41763677284", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Natalia", "phone": "41763713612", "messenger": "Telegram", "gare": "Лозанна"},
+    {"name": "Katerina Vesileva", "phone": "41764356099", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Maryna Sir", "phone": "41764732988", "messenger": "Telegram", "gare": "Вевей"},
+    {"name": "Nataliia", "phone": "41765055484", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "IRYNA", "phone": "41765111029", "messenger": "Telegram", "gare": "Лозанна"},
+    {"name": "Юлия Кузнецова", "phone": "41765255741", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Maria", "phone": "41765301751", "messenger": "Telegram", "gare": "Палезью"},
+    {"name": "Алена", "phone": "41765342529", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Diana Perebeinos", "phone": "41765375276", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Victoria Gromova", "phone": "41765419161", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Antonio", "phone": "41765712383", "messenger": "Telegram", "gare": "Ніон"},
+    {"name": "Liudmyla Gapiluk", "phone": "41766133899", "messenger": "WhatsApp", "gare": "Роль"},
+    {"name": "Eugeni S.", "phone": "41766892840", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Tatiana Pogodinska", "phone": "41766931327", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Olga Kuznetsova", "phone": "41767011209", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Olga Chervoniuk", "phone": "41767154344", "messenger": "FB", "gare": "Монтрё"},
+    {"name": "Yulia Bordyniuk", "phone": "41767374563", "messenger": "", "gare": "Женева"},
+    {"name": "Olga Frei", "phone": "41767883013", "messenger": "WhatsApp", "gare": "Морж"},
+    {"name": "Олег Корниенко", "phone": "41768137667", "messenger": "Telegram", "gare": "Лозанна"},
+    {"name": "Анастасія", "phone": "41774628631", "messenger": "Telegram", "gare": "Лозанна"},
+    {"name": "Наталя", "phone": "41778181938", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Борис (говорит рос)", "phone": "41779697467", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Kira Bercut", "phone": "41782075907", "messenger": "WhatsApp", "gare": "Палезью"},
+    {"name": "Nataliia Chilikina", "phone": "41782503430", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Mariia", "phone": "41782558091", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Оксана", "phone": "41786051656", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Oksana Neven", "phone": "41786334613", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Yuliia Sirotiuk", "phone": "41786403741", "messenger": "WhatsApp", "gare": "Палезью"},
+    {"name": "Nataliya Bezymenko", "phone": "41786998159", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Тетяна", "phone": "41787224671", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Iryna Polovets", "phone": "41787527622", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Марина Фер", "phone": "41787575605", "messenger": "WhatsApp", "gare": "Егль"},
+    {"name": "Nata", "phone": "41787678967", "messenger": "Telegram", "gare": "Ніон"},
+    {"name": "Nataliya Bosa Jörg", "phone": "41791741485", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Uliana Bakaliar", "phone": "41791977294", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Olena Karpinska", "phone": "41792091289", "messenger": "Telegram", "gare": "Ніон"},
+    {"name": "Lauriane", "phone": "41792366367", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Наталія", "phone": "41792492663", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Андрей", "phone": "41793170549", "messenger": "Telegram", "gare": "Егль"},
+    {"name": "Olga Kozlovska", "phone": "41793209591", "messenger": "WhatsApp", "gare": "Морж"},
+    {"name": "C_G", "phone": "41793259037", "messenger": "Telegram", "gare": "Роль"},
+    {"name": "Julia", "phone": "41793434925", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Elena", "phone": "41794003071", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Tanusha", "phone": "41794062557", "messenger": "Telegram", "gare": "Монтрё"},
+    {"name": "Olga Artyuschenko", "phone": "41794307348", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Svitlana Stolitnia", "phone": "41794445008", "messenger": "Telegram", "gare": "Вевей"},
+    {"name": "Анна", "phone": "41794771718", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Ольга Малютина", "phone": "41794777835", "messenger": "Telegram", "gare": "Лозанна"},
+    {"name": "Таня Гайдай", "phone": "41794878117", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Анна", "phone": "41795084203", "messenger": "WhatsApp", "gare": "Монтре"},
+    {"name": "Kate Diushko", "phone": "41795087569", "messenger": "WhatsApp", "gare": "Аламo"},
+    {"name": "Юлія", "phone": "41795201592", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Наталья Телетьен", "phone": "41795316921", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Mariyka", "phone": "41795575607", "messenger": "WhatsApp", "gare": "Вевей"},
+    {"name": "Kateryna Kyva", "phone": "41795624213", "messenger": "Telegram", "gare": "Монтре"},
+    {"name": "Корнишина Наталья", "phone": "41795693029", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Diveeva Elena", "phone": "41795699845", "messenger": "Telegram", "gare": "Ніон"},
+    {"name": "Олег Бородкин", "phone": "41795947835", "messenger": "WhatsApp", "gare": "Монтрё"},
+    {"name": "Sandra/Jacqueline", "phone": "41796291266", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Анна Коновалова", "phone": "41796354626", "messenger": "Telegram", "gare": "Гланд"},
+    {"name": "Лілія Версуа", "phone": "41796372687", "messenger": "WhatsApp", "gare": "Coppet"},
+    {"name": "Iryna Oleynik", "phone": "41796505625", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Celia Gomes", "phone": "41796640750", "messenger": "WhatsApp", "gare": "Морж"},
+    {"name": "Vitaliua", "phone": "41796720424", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Ольга Петулка", "phone": "41797337735", "messenger": "Telegram", "gare": "Вевей"},
+    {"name": "Настя", "phone": "41797489662", "messenger": "Telegram", "gare": "Лозанна"},
+    {"name": "Natali", "phone": "41797527843", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Оксана Истомина", "phone": "41797536196", "messenger": "WhatsApp", "gare": "Рено"},
+    {"name": "Лариса", "phone": "41797594095", "messenger": "Telegram/Whatsapp", "gare": "Женева"},
+    {"name": "Юлія Негребецька", "phone": "41797648891", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Lara Markina", "phone": "41797705596", "messenger": "Telegram", "gare": "Аламo"},
+    {"name": "Елена Назарчук", "phone": "41797725935", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Тетяна", "phone": "41797784091", "messenger": "WhatsApp", "gare": "Coppet"},
+    {"name": "Андрій Яценя", "phone": "41797960433", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Маргарита", "phone": "41797977777", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Maryna Tiuleneva", "phone": "41798122690", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Анна Іллюк", "phone": "41798122952", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Елена Птицына", "phone": "41798169372", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Марина", "phone": "41798267824", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Татьяна Коваленко", "phone": "41798296854", "messenger": "WhatsApp", "gare": "Монтре"},
+    {"name": "Наталья Куцелепа", "phone": "41798360586", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Світлана", "phone": "41798701029", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Наталя Данилова", "phone": "41798758617", "messenger": "WhatsApp", "gare": "Лозанна"},
+    {"name": "Виктория Юрченко", "phone": "41798886089", "messenger": "WhatsApp", "gare": "Монтрё"},
+    {"name": "Victoriia Lysak", "phone": "41798961585", "messenger": "Telegram", "gare": "Роль"},
+    {"name": "Юлія Штефюк", "phone": "41799162736", "messenger": "Telegram", "gare": "Морж"},
+    {"name": "Tanya Bilyk", "phone": "41799165046", "messenger": "Telegram", "gare": "Нион"},
+    {"name": "Nataliia Vasylevska", "phone": "41799172184", "messenger": "Telegram", "gare": "Аламo"},
+    {"name": "Рая Веллер", "phone": "41799328271", "messenger": "Telegram", "gare": "Женева"},
+    {"name": "Татьяна", "phone": "79822449648", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Anna Cherednyck", "phone": "80631652490", "messenger": "WhatsApp", "gare": "Егль"},
+    {
+        "name": "Max (Ірина забирає)",
+        "phone": "80639531111",
+        "messenger": "Telegram",
+        "gare": "Вевей"
+      },
+      {
+        "name": "Елена",
+        "phone": "380501377365",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Яна Харьков 9707",
+        "phone": "380501719707",
+        "messenger": "Telegram",
+        "gare": "Монтрё"
+      },
+      {
+        "name": "Люда Женева 0787",
+        "phone": "380502870787",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Nataliya Pylypenko",
+        "phone": "380503887479",
+        "messenger": "Telegram",
+        "gare": "Payerne"
+      },
+      {
+        "name": "Nataliia",
+        "phone": "380503952525",
+        "messenger": "Telegram",
+        "gare": "Морж"
+      },
+      {
+        "name": "Ольга Киев Бьюти Студия",
+        "phone": "380505022352",
+        "messenger": "WhatsApp",
+        "gare": "Вевей"
+      },
+      {
+        "name": "~Svitlana/Galina",
+        "phone": "380505768085",
+        "messenger": "WhatsApp",
+        "gare": "Монтрё"
+      },
+      {
+        "name": "Алена",
+        "phone": "380509052030",
+        "messenger": "Telegram",
+        "gare": "Вевей"
+      },
+      {
+        "name": "Пастух Наталія",
+        "phone": "380631626618",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Любовь Шабатіна",
+        "phone": "380634759765",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Larissa Женева 8069",
+        "phone": "380635758069",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Светлана Каспер 7178 Лозанна",
+        "phone": "380660777178",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Ольга Рожок",
+        "phone": "380661560236",
+        "messenger": "Telegram",
+        "gare": "Вевей"
+      },
+      {
+        "name": "Ірина Женева 4488",
+        "phone": "380663414488",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Natasha K Женева-7218",
+        "phone": "380664267218",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Marta Durkach",
+        "phone": "380951387815",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Светлана теннис",
+        "phone": "380951708045",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Наталья - Покупают Вместе С Таисией и Марией Женева 9246",
+        "phone": "380952019246",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Наталя Лозана 1516",
+        "phone": "380953571516",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Ирина Танцюра",
+        "phone": "380959335650",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Надежда Арешидзе",
+        "phone": "380964787448",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Богдана Женева 4787",
+        "phone": "380965884787",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Аліна Lina Женева 0974",
+        "phone": "380967640974",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Майя Женева 3155",
+        "phone": "380968283155",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Майя",
+        "phone": "380968283155",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Іван Гуменюк",
+        "phone": "380970534890",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Kseniya Женева-3816",
+        "phone": "380973213816",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Христина Мінко",
+        "phone": "380975510401",
+        "messenger": "WhatsApp",
+        "gare": "Женева"
+      },
+      {
+        "name": "Iva Іванна",
+        "phone": "380978048960",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Oleh Shumnyi (Світлана Іванівна)",
+        "phone": "380978975124",
+        "messenger": "Telegram",
+        "gare": "Монтре"
+      },
+      {
+        "name": "Ирина Голуб",
+        "phone": "380986485632",
+        "messenger": "Telegram",
+        "gare": "Егль"
+      },
+      {
+        "name": "Nataliya Женева 2953",
+        "phone": "380995613953",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Tania Galmet",
+        "phone": "410764432156",
+        "messenger": "WhatsApp",
+        "gare": "Морж"
+      },
+      {
+        "name": "Svetlana Gryzunova",
+        "phone": "380503270333",
+        "messenger": "WhatsApp",
+        "gare": "Монтре"
+      },
+      {
+        "name": "Світлана біолог курси французької Voxea",
+        "phone": "380677572728",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Oksana-0146",
+        "phone": "41793430146",
+        "messenger": "WhatsApp",
+        "gare": "Женева"
+      },
+      {
+        "name": "Nina",
+        "phone": "41797727045",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Тамара (подруга Тамари)",
+        "phone": "380731406425",
+        "messenger": "Telegram",
+        "gare": "Роль"
+      },
+      {
+        "name": "Тросиненко Дарья (либо Анастасия могут заказывать)",
+        "phone": "380688991198",
+        "messenger": "WhatsApp",
+        "gare": "Женева"
+      },
+      {
+        "name": "NK Наталія Цюріх Жін конф",
+        "phone": "380504011067",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Simon R Дарʼя Женевв 5867",
+        "phone": "380505315867",
+        "messenger": "WhatsApp",
+        "gare": "Женева"
+      },
+      {
+        "name": "Alina Альтер Старт",
+        "phone": "380509362113",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Оля Нагорная",
+        "phone": "380631328648",
+        "messenger": "Telegram",
+        "gare": "Payerne"
+      },
+      {
+        "name": "Владислава подруга Оксани",
+        "phone": "380670114217",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Наталі салон косметології",
+        "phone": "380674014140",
+        "messenger": "WhatsApp",
+        "gare": "Монтрё"
+      },
+      {
+        "name": "Ludmila Kovalchuk",
+        "phone": "380674599973",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Татьяна Ткаченко жін конф 4418",
+        "phone": "380676054418",
+        "messenger": "WhatsApp",
+        "gare": "Лозана"
+      },
+      {
+        "name": "Tatiana Golovchenko",
+        "phone": "380676301646",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "OksanaS7-2802",
+        "phone": "380677742802",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Яна lana Жін конф",
+        "phone": "380937565536",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Аня Демакова",
+        "phone": "380952032132",
+        "messenger": "Telegram",
+        "gare": "Роль"
+      },
+      {
+        "name": "Леся одногрупниця Дениса",
+        "phone": "380980470380",
+        "messenger": "WhatsApp",
+        "gare": "Palezieux"
+      },
+      {
+        "name": "Нелли Ніон Роль",
+        "phone": "380985441878",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Oksana Zakharova",
+        "phone": "380989696988",
+        "messenger": "Telegram",
+        "gare": "Морж"
+      },
+      {
+        "name": "Tatiana Kutuzova Женева 2503",
+        "phone": "380994212503",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Надія Версуа сороч Ярмарок-1985",
+        "phone": "41762471985",
+        "messenger": "WhatsApp",
+        "gare": "Версуа"
+      },
+      {
+        "name": "Alisa Hagen Клиент Творог Нион 6007",
+        "phone": "41764296007",
+        "messenger": "WhatsApp",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Анна Мурковна",
+        "phone": "41765211370",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Алина Женева 5278",
+        "phone": "41765325278",
+        "messenger": "WhatsApp",
+        "gare": "Женева"
+      },
+      {
+        "name": "Екатерина Рай",
+        "phone": "41765365663",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Nataliia Tuz",
+        "phone": "41765937039",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Lilya Веве Клиент Творог",
+        "phone": "41767115115",
+        "messenger": "WhatsApp",
+        "gare": "Вевей"
+      },
+      {
+        "name": "@taniapikalova",
+        "phone": "41767976334",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Елина клієнтка з салону краси у Монтре",
+        "phone": "41774648673",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Христина Жінка Ростика Жімель",
+        "phone": "41779082582",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Valentyna Pryshlyak 0951 Клиент Творог Роль",
+        "phone": "41779810951",
+        "messenger": "WhatsApp",
+        "gare": "Роль"
+      },
+      {
+        "name": "Victoria Mironova",
+        "phone": "41782188888",
+        "messenger": "WhatsApp",
+        "gare": "Монтрё"
+      },
+      {
+        "name": "Людмила Монтрё Рекомендация Светланы",
+        "phone": "41786176555",
+        "messenger": "WhatsApp",
+        "gare": "Монтрё"
+      },
+      {
+        "name": "Вероніка Сир Рено, Лозана",
+        "phone": "41787986813",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Родители Stefania Nedilko (мама Anna Pivniak)",
+        "phone": "41788018931",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Алевтина (Alevtina HQ)",
+        "phone": "41788371771",
+        "messenger": "Інстаграм",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Mariia Ravet клієнт Морж",
+        "phone": "41789672244",
+        "messenger": "Telegram",
+        "gare": "Морж"
+      },
+      {
+        "name": "Olga Marques",
+        "phone": "41791531901",
+        "messenger": "WhatsApp",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Eliana Монтрё",
+        "phone": "41792292961",
+        "messenger": "WhatsApp",
+        "gare": "Монтре"
+      },
+      {
+        "name": "Anastassia",
+        "phone": "41793120582",
+        "messenger": "Telegram",
+        "gare": "Ніон"
+      },
+      {
+        "name": "RV Клиент ФБ Казахстан Нион",
+        "phone": "41793251250",
+        "messenger": "WhatsApp",
+        "gare": "Ніон"
+      },
+      {
+        "name": "аватарка бабочка",
+        "phone": "41796239417",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Марія 1939 жін конф",
+        "phone": "41796531939",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Анна Семенова",
+        "phone": "41797344885",
+        "messenger": "WhatsApp",
+        "gare": "Женева"
+      },
+      {
+        "name": "Nataliia Егль",
+        "phone": "41797357001",
+        "messenger": "Telegram",
+        "gare": "Егль"
+      },
+      {
+        "name": "Yulia Женева 6520",
+        "phone": "41797436520",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Natalie Velyka",
+        "phone": "41797634376",
+        "messenger": "WhatsApp",
+        "gare": "Монтре"
+      },
+      {
+        "name": "Анастасия 9761 жін конф",
+        "phone": "41797759761",
+        "messenger": "WhatsApp",
+        "gare": "Монтрё"
+      },
+      {
+        "name": "Vadim 4320",
+        "phone": "41797794320",
+        "messenger": "Telegram",
+        "gare": "Егль"
+      },
+      {
+        "name": "Tetiana_Мол Шв",
+        "phone": "41798336028",
+        "messenger": "Telegram",
+        "gare": "Монтрё"
+      },
+      {
+        "name": "Proff Viacheslav Женева",
+        "phone": "41798483383",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Татьяна Лозанна",
+        "phone": "41799396100",
+        "messenger": "Telegram",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Nataliia Женева 8743",
+        "phone": "41762718743",
+        "messenger": "Telegram",
+        "gare": "Женева"
+      },
+      {
+        "name": "Саша",
+        "phone": "41786659472",
+        "messenger": "Telegram",
+        "gare": "Гланд"
+      },
+      {
+        "name": "Lana Graves Светлана (передавала Цветі из Женеві)",
+        "phone": "41793938239",
+        "messenger": "WhatsApp",
+        "gare": "Ніон"
+      },
+      {
+        "name": "Tim",
+        "phone": "41797061420",
+        "messenger": "Telegram",
+        "gare": "Вевей"
+      },
+      {
+        "name": "Lisa Yurchenko",
+        "phone": "41797158774",
+        "messenger": "Telegram",
+        "gare": "Вевей"
+      },
+      {
+        "name": "Алёна художник Альтер старт",
+        "phone": "380978785334",
+        "messenger": "WhatsApp",
+        "gare": "Лозанна"
+      },
+      {
+        "name": "Юрий (друг Нати) Нион",
+        "phone": "41793439825",
+        "messenger": "WhatsApp",
+        "gare": "Нион"
+      },
+      {
+        "name": "Молфарка",
+        "phone": "41765450959",
+        "messenger": "Telegram",
+        "gare": "Рено"
+      },
+      {
+        "name": "Lisa Prymachenko",
+        "phone": "41798109582",
+        "messenger": "Telegram",
+        "gare": "Гланд"
+      },
+      {
+        "name": "Монтрё укр центр Галина",
+        "phone": "380937420320",
+        "messenger": "Telegram",
+        "gare": "Монтре"
+      },
+      {
+        "name": "Назар Женева",
+        "phone": "41795411082",
+        "messenger": "WhatsApp",
+        "gare": "Женева"
+      },
+      {
+        "name": "Юлія Стефура (Соседи)",
+        "phone": "41765423857",
+        "messenger": "Telegram",
+        "gare": "Нион"
+      },
+      {
+        "name": "Yana Nahorniak",
+        "phone": "41792649080",
+        "messenger": "Telegram",
+        "gare": "Вевей"
+      }
+]
