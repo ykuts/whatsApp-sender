@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Рассылка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Рассылка</h1>
+
+        <!-- QR-код для привязки -->
+        <div id="qrCode">
+            <p>Сканируйте QR-код для привязки WhatsApp:</p>
+            <img id="qrImage" src="" alt="QR-код для авторизации">
+        </div>
+
+        <!-- Форма для выбора пользователей и отправки сообщения -->
+        <div id="messageForm" class="hidden">
+            <form>
+                <label for="messenger">Выберите мессенджер:</label>
+                <select id="messenger" onchange="filterClients()">
+                    <option value="">Все мессенджеры</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                    <option value="Telegram">Telegram</option>
+                </select>
+
+                <label for="gare">Выберите gare:</label>
+                <select id="gare" onchange="filterClients()">
+                    <option value="">Все станции</option>
+                </select>
+
+                <label for="clients">Выберите клиентов:</label>
+                <select id="clients" multiple>
+                    <!-- Клиенты будут загружены с сервера -->
+                </select>
+
+                <label for="message">Введите сообщение:</label>
+                <textarea id="message" placeholder="Ваше сообщение..."></textarea>
+
+                <label for="file">Загрузите файл (опционально):</label>
+                <input type="file" id="file" accept="image/*, .pdf, .doc, .docx, .xls, .xlsx">
+
+                <button type="button" onclick="sendMessage()">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let allClients = [];
+
+        // Функция для получения QR-кода
+        function getQRCode() {
+            fetch('/get-qr')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.qr) {
+                        document.getElementById('qrImage').src = data.qr;
+                    }
+                });
+        }
+
+        // Получаем QR-код при загрузке страницы
+        window.onload = function() {
+            getQRCode();
+        };
+
+        // Проверка готовности клиента и отображение формы для сообщений
+        function checkClientReady() {
+            fetch('/check-ready')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.ready) {
+                        document.getElementById('qrCode').classList.add('hidden');
+                        document.getElementById('messageForm').classList.remove('hidden');
+
+                        // Загружаем список клиентов
+                        fetch('/clients')
+                            .then(response => response.json())
+                            .then(clients => {
+                                allClients = clients;
+                                populateGareOptions(clients);
+                                filterClients();
+                            });
+                    } else {
+                        setTimeout(checkClientReady, 2000); // Проверять каждые 2 секунды
+                    }
+                });
+        }
+
+        // Начинаем проверять, готов ли клиент WhatsApp
+        checkClientReady();
+
+        // Функция для заполнения списка gare
+        function populateGareOptions(clients) {
+            const gareSet = new Set(clients.map(client => client.gare));
+            const gareSelect = document.getElementById('gare');
+            gareSet.forEach(gare => {
+                const option = document.createElement('option');
+                option.value = gare;
+                option.textContent = gare;
+                gareSelect.appendChild(option);
+            });
+        }
+
+        // Фильтрация клиентов по мессенджеру и gare
+        function filterClients() {
+            const selectedMessenger = document.getElementById('messenger').value;
+            const selectedGare = document.getElementById('gare').value;
+            const clientsSelect = document.getElementById('clients');
+
+            clientsSelect.innerHTML = ''; // Очистить список
+
+            const filteredClients = allClients.filter(client => {
+                return (!selectedMessenger || client.messenger === selectedMessenger) &&
+                       (!selectedGare || client.gare === selectedGare);
+            });
+
+            filteredClients.forEach(client => {
+                const option = document.createElement('option');
+                option.value = client.phone;
+                option.textContent = `${client.name} (${client.gare}, ${client.messenger})`;
+                clientsSelect.appendChild(option);
+            });
+        }
+
+        // Функция для отправки сообщений выбранным клиентам
+        function sendMessage() {
+    const clients = Array.from(document.getElementById('clients').selectedOptions)
+                        .map(option => option.value);
+    const message = document.getElementById('message').value;
+    const fileInput = document.getElementById('file');
+    const file = fileInput.files[0];
+
+    const formData = new FormData();
+    formData.append('clients', JSON.stringify(clients));
+    formData.append('message', message);
+    
+    if (file) {
+        formData.append('file', file);  // Добавляем файл, если он есть
+    }
+
+    fetch('/send', {
+        method: 'POST',
+        body: formData,
+    }).then(response => response.json())
+    .then(data => {
+        alert('Сообщение отправлено!');
+    });
+}
+    </script>
+</body>
+</html>

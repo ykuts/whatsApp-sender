@@ -1,0 +1,9 @@
+[
+    {"name": "Iryna", "phone": "41797158774", "messenger": "WhatsApp", "gare": "Ніон"},
+    {"name": "Yuliia", "phone": "41794893260", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Iryna2", "phone": "41797158774", "messenger": "WhatsApp", "gare": "Вевей"},
+    {"name": "Yuliia2", "phone": "41794893260", "messenger": "WhatsApp", "gare": "Женева"},
+    {"name": "Iryna3", "phone": "41797158774", "messenger": "Telegram", "gare": "Ніон"},
+    {"name": "Yuliia3", "phone": "41794893260", "messenger": "Telegram", "gare": "Женева"}
+    
+]
