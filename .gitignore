@@ -1,1 +1,8 @@
 /node_modules
+
+# Игнорировать файл JSON
+clients.json
+clients_old.json
+clientsFull.json
+.env
+uploads/

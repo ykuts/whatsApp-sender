@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config();
 const { Client, MessageMedia } = require('whatsapp-web.js');
 const qrcode = require('qrcode');
 const fs = require('fs');
@@ -42,15 +43,20 @@ app.get('/check-ready', (req, res) => {
 
 // Эндпоинт для отправки списка клиентов
 app.get('/clients', (req, res) => {
-    fs.readFile('clients.json', 'utf8', (err, data) => {
-        if (err) {
-            console.error('Error reading clients.json:', err);
-            return res.status(500).send('Ошибка чтения списка клиентов');
-        }
+    const clientsJson = process.env.CLIENTS_JSON;
+    
+    if (!clientsJson) {
+        console.error('CLIENTS_JSON environment variable is not set');
+        return res.status(500).send('Ошибка: переменная окружения CLIENTS_JSON не установлена');
+    }
 
-        const clients = JSON.parse(data);
+    try {
+        const clients = JSON.parse(clientsJson);
         res.json(clients);
-    });
+    } catch (err) {
+        console.error('Error parsing CLIENTS_JSON:', err);
+        res.status(500).send('Ошибка обработки данных клиентов');
+    }
 });
 
 // Middleware для загрузки файлов
